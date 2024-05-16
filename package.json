@@ -1,0 +1,19 @@
+{
+  "name": "curso-basico-nodejs",
+  "version": "0.0.0",
+  "description": "Curso Básico de Node JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=test jest --detectOpenHandles --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/strangexz/curso-nodejs.git"
+  },
+  "author": "strangexz",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/strangexz/curso-nodejs/issues"
+  },
+  "homepage": "https://github.com/strangexz/curso-nodejs#readme"
+}
