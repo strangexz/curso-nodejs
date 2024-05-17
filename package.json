@@ -2,9 +2,10 @@
   "name": "curso-basico-nodejs",
   "version": "0.0.0",
   "description": "Curso Básico de Node JS",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "cross-env NODE_ENV=test jest --detectOpenHandles --forceExit"
+    "test": "cross-env NODE_ENV=test jest --detectOpenHandles --forceExit",
+    "start": "node src/"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/strangexz/curso-nodejs/issues"
   },
-  "homepage": "https://github.com/strangexz/curso-nodejs#readme"
+  "homepage": "https://github.com/strangexz/curso-nodejs#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "handlebars": "^4.7.8"
+  }
 }
